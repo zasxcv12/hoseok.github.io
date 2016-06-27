@@ -1,0 +1,68 @@
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  margin-left: 10%;
+  overflow: auto;
+}
+header,section,aside,footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+header{
+	width: 100%;
+	margin-left: -30px;
+}
+section {
+  float: left;
+  width: 63%;
+}
+aside {
+  float: right;
+  width: 30%;
+  margin-right: 30px;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+img{
+	float: left;
+}
+.meter { 
+	height: 15px;  
+	position: relative;
+	background: white;
+	
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  background-color: orange;
+  position: relative;
+  overflow: hidden;
+} 
+.check {
+	background-color:black;
+	color: #fff;
+	display: block;
+	font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+	padding: 24px 15px;
+	border-radius: 6px;
+	margin-left: 80px;
+	margin-right: 10px;
+	overflow: auto;
+}
+.rightside {
+	float:right;
+	width: 50%;
+}
+.leftside {
+	float:left;
+	width: 50%;
+}
+body {
+	width: 1300px;
+}
