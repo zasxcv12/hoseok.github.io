@@ -12,7 +12,6 @@ $header = "From: $email";
 
 mail($to,$subject,$message,$header);
 echo "your message has been sent";
-echo "$name \n $email \n $message \n $to \n $subject"
 
  ?>
 
